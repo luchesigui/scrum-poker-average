@@ -15,7 +15,7 @@ const adicionarAcaoDeCalculo = (elementoDeAcao, elementoDeResultados) => {
       return;
     }
 
-    if (action === 'HIDE') {
+    if (action === 'HIDE' || action === 'DELETE ESTIMATES') {
       restauraResultado(elementoDeResultados, tituloOriginalDeResultados);
     }
   });
